@@ -1,0 +1,11 @@
+@import url(./cartao.css);
+
+:root {
+    --branco: #FFFFFF;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}

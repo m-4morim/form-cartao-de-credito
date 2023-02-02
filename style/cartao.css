@@ -1,0 +1,70 @@
+.img-fundo {
+    position: relative;
+}
+
+.cartao-verso {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 300px;
+}
+
+.cartao-frente {
+    position: absolute;
+    top: 122px;
+    left: 15px;
+    width: 300px;
+}
+
+.circulo-grande {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 135px;
+    left: 35px;
+    background: var(--branco);
+    border-radius: 50%;
+}
+
+.circulo-pequeno {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 145px;
+    left: 75px;
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    border-radius: 50%;
+}
+
+.cartao-numero {
+    position: absolute;
+    top: 205px;
+    left: 35px;
+    color: var(--branco);
+}
+
+.cartao-nome {
+    position: absolute;
+    top: 250px;
+    left: 35px;
+    color: var(--branco);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.cartao-validade {
+    position: absolute;
+    top: 250px;
+    right: 80px;
+    color: var(--branco);
+    font-size: 12px;
+}
+
+.cartao-cvv {
+    position: absolute;
+    top: 105px;
+    right: 55px;
+    color: var(--branco);
+    font-size: 12px;
+}
