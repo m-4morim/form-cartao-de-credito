@@ -1,0 +1,57 @@
+.formulario {
+    margin: 5em 1.3em;
+    width: 80vw;
+    align-self: auto;
+}
+
+.formulario-campo {
+    margin-bottom: 1em;
+}
+
+.formulario-campo-alinhado {
+    display: flex;
+}
+
+.formulario-campo-alinhado-data {
+    display: flex;
+    width: 50%;
+}
+
+.formulario-campo-validade {
+    width: 50%;
+}
+
+.formulario-campo-cvv {
+    width: 50%;
+}
+
+.campo-titulo {
+    line-height: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.campo-titulo-validade .campo-titulo-cvv {
+    width: 50%;
+}
+
+.campo-escrita {
+    display: block;
+    border: 1px solid var(--cinza-borda);
+    border-radius: 5px;
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+}
+
+.campo-escrita-mes {
+    
+}
+
+.campo-escrita-ano {
+    
+}
+
+.campo-escrita-mes-cvv {
+    
+}

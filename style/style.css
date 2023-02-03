@@ -1,7 +1,9 @@
 @import url(./cartao.css);
+@import url(./formulario.css);
 
 :root {
     --branco: #FFFFFF;
+    --cinza-borda: hsl(270, 3%, 87%) /*style guide*/
 }
 
 body {

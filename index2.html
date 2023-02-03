@@ -26,5 +26,35 @@
             <h6 class="cartao-validade">00/00</h6>
             <h6 class="cartao-cvv">000</h6>
         </section>
+
+        <section class="formulario">
+            <form class="formulario-dados">
+                <fieldset class="formulario-campo">
+                    <label class="campo-titulo" for="nome">Titular</label>
+                    <input name="nome" type="nome" class="campo-escrita" minlength="3" required>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                <fieldset class="formulario-campo">
+                    <label class="campo-titulo" for="numero">Número do cartão</label>
+                    <input name="numero" type="text" class="campo-escrita" minlength="16" required>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                <div class="formulario-campo-alinhado">
+                    <fieldset class="formulario-campo formulario-campo-validade">
+                        <label class="campo-titulo campo-titulo-validade" for="data">Validade</label>
+                            <div class="formulario-campo-alinhado-data">
+                                <input name="data" type="text" class="campo-escrita campo-escrita-mes" minlength="2" required>
+                                <input name="data" type="text" class="campo-escrita campo-escrita-ano" minlength="2" required>
+                            </div>
+                        <span class="mensagem-erro"></span>
+                    </fieldset>
+                    <fieldset class="formulario-campo formulario-campo-cvv">
+                        <label class="campo-titulo campo-titulo-cvv" for="cvv">Cvv</label>
+                        <input name="cvv" type="text" class="campo-escrita campo-escrita-mes-cvv" minlength="3" required>
+                        <span class="mensagem-erro"></span>
+                    </fieldset>
+                </div>
+            </form>
+        </section>
     </body>
 </html>
