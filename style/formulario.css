@@ -1,57 +1,63 @@
 .formulario {
-    margin: 5em 1.3em;
-    width: 80vw;
-    align-self: auto;
+    margin: 4em 1.3em;
+}
+
+.formulario-dados {
+
 }
 
 .formulario-campo {
     margin-bottom: 1em;
-}
-
-.formulario-campo-alinhado {
-    display: flex;
-}
-
-.formulario-campo-alinhado-data {
-    display: flex;
-    width: 50%;
+    width: 80vw;
 }
 
 .formulario-campo-validade {
-    width: 50%;
+    
 }
 
 .formulario-campo-cvv {
-    width: 50%;
+    
 }
 
 .campo-titulo {
-    line-height: 10px;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
 }
 
-.campo-titulo-validade .campo-titulo-cvv {
-    width: 50%;
+.campo-titulo-validade {
+    
+}
+
+.campo-titulo-cvv {
+
 }
 
 .campo-escrita {
-    display: block;
+    font-family: var(--fonte);
     border: 1px solid var(--cinza-borda);
-    border-radius: 5px;
+    border-radius: 8px;
     width: 100%;
     padding: 1em;
-    margin-top: .5em;
+    margin-top: .8em;
+}
+
+.formulario-campo-linha {
+    display: flex;
+}
+
+.formulario-campo-linha-data {
+    
 }
 
 .campo-escrita-mes {
-    
+    width: 11vw;
+    margin-right: .2em;
 }
 
 .campo-escrita-ano {
-    
+    width: 11vw;
 }
 
-.campo-escrita-mes-cvv {
-    
+.campo-escrita-cvv {
+    width: 38vw;
 }

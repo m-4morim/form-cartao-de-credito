@@ -3,11 +3,12 @@
 
 :root {
     --branco: #FFFFFF;
-    --cinza-borda: hsl(270, 3%, 87%) /*style guide*/
+    --cinza-borda: hsl(270, 3%, 87%); /*style guide*/
+    --fonte: 'Space Grotesk', sans-serif; /*style guide*/
 }
 
 body {
     font-size: 18px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: var(--fonte);
     font-weight: 500;
 }
