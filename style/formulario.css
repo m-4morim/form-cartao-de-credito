@@ -37,7 +37,7 @@
     border: 1px solid var(--cinza-borda);
     border-radius: 8px;
     width: 100%;
-    padding: 1em;
+    padding: .8em;
     margin-top: .8em;
 }
 
@@ -60,4 +60,62 @@
 
 .campo-escrita-cvv {
     width: 38vw;
+}
+
+.formulario-botao {
+    background: var(--violeta-escuro);
+    margin: .3em auto;
+    display: block;
+    border: none;
+    padding: 1em;
+    width: 100%;
+    border-radius: 8px;
+    font-family: var(--fonte);
+    color: var(--branco);
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario {
+        width: 25vw;
+    }
+
+    .formulario-dados {
+        left: 20px;
+    }
+
+    .formulario-campo {
+        align-items: center;
+        width: 50%;
+    }
+
+    .campo-escrita {
+        font-family: var(--fonte);
+        border: 1px solid var(--cinza-borda);
+        border-radius: 8px;
+        width: 23.4vw;
+        padding: .8em;
+        margin-top: .8em;
+    }
+
+    .formulario-campo-linha {
+        display: flex;
+    }
+
+    .campo-escrita-mes {
+        width: 4vw;
+        margin-right: .2em;
+    }
+
+    .campo-escrita-ano {
+        width: 4vw;
+    }
+
+    .campo-escrita-cvv {
+        width: 11vw;
+    }
+
+    .formulario-botao {
+        margin-top: 1em;
+    }
 }

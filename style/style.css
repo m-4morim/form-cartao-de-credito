@@ -4,6 +4,7 @@
 :root {
     --branco: #FFFFFF;
     --cinza-borda: hsl(270, 3%, 87%); /*style guide*/
+    --violeta-escuro: hsl(278, 68%, 11%); /*style guide*/
     --fonte: 'Space Grotesk', sans-serif; /*style guide*/
 }
 
@@ -11,4 +12,13 @@ body {
     font-size: 18px;
     font-family: var(--fonte);
     font-weight: 500;
+}
+
+@media screen and (min-width: 1440px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 10em;
+    }
 }
