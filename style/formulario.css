@@ -80,34 +80,19 @@
         width: 25vw;
     }
 
-    .formulario-dados {
-        left: 20px;
-    }
-
     .formulario-campo {
-        align-items: center;
         width: 50%;
     }
 
     .campo-escrita {
-        font-family: var(--fonte);
-        border: 1px solid var(--cinza-borda);
-        border-radius: 8px;
         width: 23.4vw;
-        padding: .8em;
-        margin-top: .8em;
     }
 
     .formulario-campo-linha {
-        display: flex;
+
     }
 
-    .campo-escrita-mes {
-        width: 4vw;
-        margin-right: .2em;
-    }
-
-    .campo-escrita-ano {
+    .campo-escrita-mes, .campo-escrita-ano {
         width: 4vw;
     }
 

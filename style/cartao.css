@@ -71,70 +71,52 @@
 
 @media screen and (min-width: 1440px) {
     .cartao-verso {
-        position: absolute;
         top: 450px;
         left: 285px;
         width: 380px;
     }
 
     .cartao-frente {
-        position: absolute;
         top: 210px;
         left: 200px;
         width: 380px;
     }
 
     .circulo-grande {
-        position: absolute;
         width: 42px;
         height: 42px;
         top: 235px;
         left: 230px;
-        background: var(--branco);
-        border-radius: 50%;
     }
     
     .circulo-pequeno {
-        position: absolute;
         width: 16px;
         height: 16px;
         top: 250px;
         left: 285px;
-        background-color: transparent;
-        border: 1px solid var(--branco);
-        border-radius: 50%;
     }
     
     .cartao-numero {
-        position: absolute;
         top: 320px;
         left: 230px;
-        color: var(--branco);
         font-size: 22px;
     }
     
     .cartao-nome {
-        position: absolute;
         top: 375px;
         left: 232px;
-        color: var(--branco);
         font-size: 14px;
-        text-transform: uppercase;
     }
 
     .cartao-validade {
-        position: absolute;
         top: 375px;
         left: 505px;
-        color: var(--branco);
         font-size: 14px;
     }
     
     .cartao-cvv {
-        position: absolute;
         top: 545px;
         left: 585px;
-        color: var(--branco);
         font-size: 14px;
     }
 }
