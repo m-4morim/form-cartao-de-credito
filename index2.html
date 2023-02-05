@@ -33,7 +33,7 @@
             </section>
 
             <section class="formulario">
-                <form class="formulario-dados">
+                <form class="formulario-dados" data-formulario>
                     <fieldset class="formulario-campo">
                         <label class="campo-titulo" for="nome">Titular</label>
                         <input name="nome" type="nome" class="campo-escrita" placeholder="Ex. Maria da Silva" minlength="3" required>
@@ -46,12 +46,12 @@
                     </fieldset>
                     <div class="formulario-campo-linha">
                         <fieldset class="formulario-campo formulario-campo-validade">
-                            <label class="campo-titulo campo-titulo-validade" for="data">Validade (mm/aa)</label>
-                                <div class="formulario-campo-linha-data">
-                                    <input name="data" type="text" class="campo-escrita campo-escrita-mes" placeholder="MM" minlength="2" required>
-                                    <input name="data" type="text" class="campo-escrita campo-escrita-ano" placeholder="AA" minlength="2" required>
-                                </div>
-                            <span class="mensagem-erro"></span>
+                            <div class="formulario-campo-linha-data">
+                                <label class="campo-titulo campo-titulo-validade" for="data">Validade (mm/aa)</label>
+                                <input name="data" type="text" class="campo-escrita campo-escrita-mes" placeholder="MM" minlength="2" required>
+                                <input name="data" type="text" class="campo-escrita campo-escrita-ano" placeholder="AA" minlength="2" required>
+                                <span class="mensagem-erro"></span>
+                            </div>
                         </fieldset>
                         <fieldset class="formulario-campo formulario-campo-cvv">
                             <label class="campo-titulo campo-titulo-cvv" for="cvv">Cvv</label>
@@ -66,5 +66,7 @@
                 </form>
             </section>
         </main>
+
+        <script src="./script.js"></script>
     </body>
 </html>

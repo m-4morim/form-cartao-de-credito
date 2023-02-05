@@ -5,6 +5,7 @@
     --branco: #FFFFFF;
     --cinza-borda: hsl(270, 3%, 87%); /*style guide*/
     --violeta-escuro: hsl(278, 68%, 11%); /*style guide*/
+    --vermelho-erro: hsl(0, 100%, 66%); /*style guide*/
     --fonte: 'Space Grotesk', sans-serif; /*style guide*/
 }
 
