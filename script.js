@@ -26,7 +26,7 @@ const mensagens = {
     numero: {
         valueMissing: "Este campo não pode ficar vazio",
         typeMismatch: "Por favor, preencha um número de cartão válido",
-        tooShort: "O número de cartão deve conter 16 dígitos"
+        tooShort: "O número do cartão deve conter 16 dígitos"
     },
     data: {
         valueMissing: "Estes campos não podem ficar vazio",

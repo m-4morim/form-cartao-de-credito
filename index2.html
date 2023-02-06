@@ -26,14 +26,14 @@
                 <div class="circulo-grande"></div>
                 <div class="circulo-pequeno"></div>
 
-                <h1 class="cartao-numero">0000 0000 0000 0000</h1>
+                <div class="cartao-numero" id="root"></div>
                 <h6 class="cartao-nome">Maria da Silva</h6>
                 <h6 class="cartao-validade">00/00</h6>
                 <h6 class="cartao-cvv">000</h6>
             </section>
 
             <section class="formulario">
-                <form class="formulario-dados" data-formulario>
+                <form data-formulario>
                     <fieldset class="formulario-campo">
                         <label class="campo-titulo" for="nome">Titular</label>
                         <input name="nome" type="nome" class="campo-escrita" placeholder="Ex. Maria da Silva" minlength="3" required>
@@ -45,16 +45,16 @@
                         <span class="mensagem-erro"></span>
                     </fieldset>
                     <div class="formulario-campo-linha">
-                        <fieldset class="formulario-campo formulario-campo-validade">
-                            <div class="formulario-campo-linha-data">
-                                <label class="campo-titulo campo-titulo-validade" for="data">Validade (mm/aa)</label>
+                        <fieldset class="formulario-campo">
+                            <div>
+                                <label class="campo-titulo" for="data">Validade (mm/aa)</label>
                                 <input name="data" type="text" class="campo-escrita campo-escrita-mes" placeholder="MM" minlength="2" required>
                                 <input name="data" type="text" class="campo-escrita campo-escrita-ano" placeholder="AA" minlength="2" required>
                                 <span class="mensagem-erro"></span>
                             </div>
                         </fieldset>
-                        <fieldset class="formulario-campo formulario-campo-cvv">
-                            <label class="campo-titulo campo-titulo-cvv" for="cvv">Cvv</label>
+                        <fieldset class="formulario-campo">
+                            <label class="campo-titulo" for="cvv">Cvv</label>
                             <input name="cvv" type="text" class="campo-escrita campo-escrita-cvv" placeholder="Ex. 123" minlength="3" required>
                             <span class="mensagem-erro"></span>
                         </fieldset>
@@ -66,7 +66,6 @@
                 </form>
             </section>
         </main>
-
         <script src="./script.js"></script>
     </body>
 </html>

@@ -2,34 +2,14 @@
     margin: 4em 1.3em;
 }
 
-.formulario-dados {
-
-}
-
 .formulario-campo {
     margin-bottom: 1em;
     width: 80vw;
 }
 
-.formulario-campo-validade {
-    
-}
-
-.formulario-campo-cvv {
-    
-}
-
 .campo-titulo {
     font-size: 13px;
     text-transform: uppercase;
-}
-
-.campo-titulo-validade {
-    
-}
-
-.campo-titulo-cvv {
-
 }
 
 .campo-escrita {
@@ -43,10 +23,6 @@
 
 .formulario-campo-linha {
     display: flex;
-}
-
-.formulario-campo-linha-data {
-    
 }
 
 .campo-escrita-mes {
@@ -91,10 +67,6 @@
 
     .campo-escrita {
         width: 23.4vw;
-    }
-
-    .formulario-campo-linha {
-
     }
 
     .campo-escrita-mes, .campo-escrita-ano {
