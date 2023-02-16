@@ -4,6 +4,8 @@
 #####################################################
 *.sketch
 *.fig
+/node_modules
+/Arquivos Base
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
