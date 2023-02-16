@@ -6,6 +6,10 @@
    <img src="https://img.shields.io/badge/status-developing-yellow"/>
    <img src="https://img.shields.io/badge/deploy-online-brightgreen?logo=vercel"/>
   </div><br>
+
+![Print](./images/print.png)
+  <blockquote>Conceito de criação mobile first (design mobile: 375px; desktop: 1440px)</blockquote><br>
+
   <p>Meu propósito nesse projeto se baseou na experiência do usuário, onde eu customizei as mensagens para cada input do form, caso algum dado seja inserido com erro.</p>
   <p>Dar o devido suporte apontando exatamente o que deve ser corrigido possibilita que o mesmo não desista de submeter as informações ao cadastrar um cartão de crédito, tema proposto, e prosseguir com a compra em um suposto e-commerce.</p>
 
