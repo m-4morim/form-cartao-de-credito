@@ -1,6 +1,6 @@
 <html>
  <body>
-  <h1>Cartão de Crédito - Cadastro</h1>
+  <h1>Form - Cartão de Crédito</h1>
   <div align="center">
    <img src="https://img.shields.io/github/last-commit/m-4morim/cadastro-cartao-de-credito?logo=git"/>
    <img src="https://img.shields.io/badge/status-developing-yellow"/>
@@ -14,7 +14,7 @@
   <p>Dar o devido suporte apontando exatamente o que deve ser corrigido possibilita que o mesmo não desista de submeter as informações ao cadastrar um cartão de crédito, tema proposto, e prosseguir com a compra em um suposto e-commerce.</p>
 
 ##
-  <div>
+  <div align="center">
    <p>Tecnologias utilizadas:</p>
    <img alt="Logo-HTML" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
    <img alt="Logo-CSS" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
